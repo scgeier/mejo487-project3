@@ -1,0 +1,185 @@
+/* ----- Global Styles ----*/
+body{
+    font-family: 'Georgia';
+    font-size: 18px;
+    background-color: #F7F7F7;
+  }
+  
+  h1{
+    font-weight: 700;
+  }
+  h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 2%;
+  }
+  h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 3%;
+  }
+  h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .container{
+    padding: 0% 15%;
+  }
+  .text{
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+  
+  
+  /* ----- Header ----*/
+  
+  .custom-header{
+  background-color: black;
+  padding-top: 1%;
+  }
+  
+  #custom-header-tag{
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  #hamburger-nav{
+    margin-top: 25px;
+    max-height: 25px;
+    margin-left: 47px;
+  }
+  
+  .title{
+    margin-top: 5%;
+  }
+  #wapo-logo{
+    max-width: 300px;
+  }
+  
+  .first-graf p:last-of-type{
+    margin-bottom: 5%;
+  }
+  
+  .intro{
+    margin-bottom: 3%;
+  }
+  #author{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  }
+  /*----- Revenue Graph ----*/
+  #inOutStackedBar{
+    width: 90%;
+    min-height: 400px;
+  }
+  #revenueLine{
+    margin-top: 5%;
+    width: 90%;
+    min-height: 400px;
+  }
+  #enrollmentLine{
+    margin-bottom: 5%;
+    width: 90%;
+    min-height: 400px;
+  }
+  .tuition-blurb{
+    margin-bottom: 5%;
+  }
+  .tuition-intro{
+    margin-bottom: 5%;
+  }
+  .tuition-history{
+    font-family: 'Georgia';
+    font-weight: 700;
+    font-size: 46px;
+  }
+  .tuition-history p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  #in-state-btn{
+    margin-right: 15px;
+  }
+  #out-state-btn{
+    margin-left: 5px;
+  }
+  .sources{
+    margin-top: 5%;
+  }
+  
+  /* ---- Footer -----*/
+  
+  footer{
+    font-family: 'Roboto';
+    font-size: 13px;
+    margin-top: 7%;
+    padding-bottom: 5%;
+  }
+  
+  .footer-divider{
+    background-color: #F7F7F7;
+  background-image: url(../img/footer-divider.jpg);
+  background-repeat: no-repeat;
+  height: 80px;
+  margin-bottom: 40px;
+  background-position: center;
+  }
+  /* ---- Media Queries ---*/
+  
+  @media only screen and (max-width: 700px) {
+      .container{
+        padding: 0% 7%;
+      }
+      .footer-responsive{
+  margin-bottom: 15px;
+  }
+      h1{
+        font-size: 30px;
+      }
+      h2{
+        font-size: 20px;
+        line-height: 30px;
+      }
+      h3{
+        font-size: 16px;
+        line-height: 20px;
+      }
+      #custom-header-tag{
+        font-size: 14px;
+      }
+      #wapo-logo{
+        max-width: 206px;
+        margin-top: 10px;
+        margin-bottom: 3px;
+      }
+      #inOutStackedBar{
+        min-height: 240px;
+      }
+      #revenueLine{
+        min-height: 200px;
+      }
+      #enrollmentLine{
+        min-height: 200px;
+      }
+      #hamburger-nav{
+        max-height: 19px;
+        margin-left: 9px;
+      }
+      .tuition-history{
+        font-size: 30px;
+      }
+      .in-out-radio{
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      #submit-btn{
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+      }
+  }
